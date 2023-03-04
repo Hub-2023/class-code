@@ -1,15 +1,12 @@
 // example 1:
 
-var you = 'blah blah'
+var you = 'hungry'
 
 if (you == 'hungry') {
     console.log('eat')
 } else if (you == 'sleepy') {
     console.log('sleep')
-} else if (you == 'bored') {
-    console.log('play')
-}
-else {
+} else {
     console.log('keep coding')
 }
 

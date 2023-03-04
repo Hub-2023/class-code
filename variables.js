@@ -23,3 +23,4 @@ const shark = 'scary'
 // shark = 'dangerous' // error because 'const' cannot be reassigned
 
 console.log('const shark =', shark)
+
