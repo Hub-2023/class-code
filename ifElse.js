@@ -10,6 +10,8 @@ if (you == 'hungry') {
     console.log('keep coding')
 }
 
+
+//--------------------------------------------------------------
 // example 2:
 
 // var hungryRating = 7
