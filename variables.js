@@ -9,11 +9,11 @@ console.log('var dolphin =', dolphin)
 
 //------------------------------------------------------------ LET ------------------------------------------------------------
 
-let whale
-// let whale = 'fun' // error because 'let' can only be declared once
-whale = 'awesome'
+let hapuka
+// let hapuka = 'fun' // error because 'let' can only be declared once
+hapuka = 'awesome'
 
-console.log('let whale =', whale)
+console.log('let whale =', hapuka)
 
 
 //------------------------------------------------------------ CONST ------------------------------------------------------------
