@@ -4,7 +4,7 @@
 // it will then output the appropriate string to the console
 // and to the output div in the html
 
-function clicked (you) {
+function mood (you) {
     const output = document.getElementById('output');
 
     if (you == 'hungry') {
