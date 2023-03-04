@@ -38,23 +38,36 @@ body {
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-.cool:hover {
-    /* animation: bounce 0.5s linear; */
+.button:hover {
     background-color: #eceefc;
-    color: #4993a5;
   }
   
-  @keyframes bounce {
-    0% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(-1px);
-    }
-    100% {
-      transform: translateY(0);
-    }
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
+  
+  .button-container button {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    border: none;
+  }
+  
+  .red {
+    background-color: #ff4136;
+  }
+  
+  .yellow {
+    background-color: #ffd700;
+  }
+  
+  .green {
+    background-color: #2ecc40;
+  }
+  
 
   .output {
     margin-top: 20px;
