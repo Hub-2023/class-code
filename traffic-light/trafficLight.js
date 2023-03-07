@@ -1,13 +1,13 @@
 function trafficLight (colour) {
-    const output = document.getElementById('output');
+    const display = document.getElementById('display');
 
-    if (colour === 'red') {
-        output.textContent = 'stop'
-    } else if (colour === 'yellow') {
-        output.textContent = 'slow down'
-    } else if (colour === 'green') {
-        output.textContent = 'go'
+    if (colour == 'green') {
+        display.textContent = 'go!'
+    } else if (colour == 'yellow') {
+        display.textContent = 'slow down!'
+    } else if (colour == 'red'){
+        display.textContent = 'stop!'
     } else {
-        output.textContent = 'invalid colour'
+        display.textContent = 'invalid colour'
     }
 }
