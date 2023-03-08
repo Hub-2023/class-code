@@ -6,7 +6,7 @@ function trafficLight (colour) {
     } else if (colour == 'red'){
         console.log('stop!')
     } else {
-        console.log('invalid colour')
+        console.log('give way rules apply')
     }
 }
 

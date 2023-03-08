@@ -60,6 +60,10 @@ body {
   .green {
     background-color: #2ecc40;
   }
+
+  .purple {
+    background-color: purple;
+  }
   
 
   .output {

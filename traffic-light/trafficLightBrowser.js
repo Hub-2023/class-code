@@ -8,6 +8,6 @@ function trafficLight (colour) {
     } else if (colour == 'red'){
         display.textContent = 'stop!'
     } else {
-        display.textContent = 'invalid colour'
+        display.textContent = 'give way rules apply'
     }
 }
