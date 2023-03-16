@@ -10,4 +10,4 @@ function trafficLight (colour) {
     }
 }
 
-trafficLight('green')
+trafficLight('pink')
