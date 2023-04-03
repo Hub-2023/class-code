@@ -79,3 +79,21 @@ The function call:
 The expected output:
 
 `["Apples", "Bananas", "Oranges", "Mangoes", "Strawberries"]`
+
+----------------------------
+
+## Function instructions:
+
+Define an array of numbers with values: 1, 2, 3, 4, 5.
+
+Define a function that takes in two parameters: "numbers" and "newNumber".
+
+Inside the function, add the newNumber to the end of the number array.
+
+The function call:
+
+`addNumbers(numbers, 6)`
+
+The expected output:
+
+`[1, 2, 3, 4, 5, 6]`

@@ -79,3 +79,21 @@ The function call:
 The expected output:
 
 `Mangoes`
+
+----------------------------
+
+## Function instructions:
+
+Define an array of cars with values: "Mustang", "Civic", "Corvette".
+
+Define a function that takes in two parameters: "cars" and "newCar".
+
+Inside the function, add the newCar to the start of the car array.
+
+The function call:
+
+`addCar(cars, "Tesla")`
+
+The expected output:
+
+`["Tesla", "Mustang", "Civic", "Corvette"]`

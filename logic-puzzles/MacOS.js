@@ -36,8 +36,25 @@ function getShoeAtIndex (shoes, index) {
 let fruit = ["Apples", "Bananas", "Oranges", "Mangoes"]
 
 function addFruit (fruit, newFruit) {
-    fruit.push(newFruit)
-    console.log(fruit)
+    const list = fruit.push(newFruit)
+    console.log(list)
 }
 
-addFruit(fruit, "Strawberries")
+// addFruit(fruit, "Strawberries")
+
+// ------------------------
+
+let numbers = [1, 2, 3, 4, 5]
+
+function addNumbers (numbers, newNumber) {
+    numbers.push(newNumber)
+    console.log(numbers)
+}
+
+// addNumbers(numbers, 6)
+
+const sayHello = (name) => {
+    console.log("Hello " + name)
+}
+
+sayHello("John")

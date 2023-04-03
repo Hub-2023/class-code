@@ -38,4 +38,23 @@ function selectFavouriteFruit (fruit, index) {
     console.log(favouriteFruit)
 }
 
-selectFavouriteFruit(fruit, 3)
+// selectFavouriteFruit(fruit, 3)
+
+// ------------------------
+
+let shoes = ["Nike", "Puma", "Adidas", "Reebok"]
+
+function getShoeAtIndex (shoes, index) {
+    console.log(shoes[index])
+}
+
+// ------------------------
+
+let cars = ["Mustang", "Civic", "Corvette"]
+
+function addCar (cars, newCar) {
+    cars.unshift(newCar)
+    console.log(cars)
+}
+
+addCar(cars, "Tesla")
