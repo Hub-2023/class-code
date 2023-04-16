@@ -97,3 +97,31 @@ The function call:
 The expected output:
 
 `[1, 2, 3, 4, 5, 6]`
+
+--------------------------
+
+## Instructions:
+
+Change the h1 tag to say 'Hello Aotearoa' using DOM manipulation.
+
+The html:
+
+`<h1 class="title">Hello World</h1>`
+
+The expected output:
+
+`Hello Aotearoa`
+
+--------------------------
+
+## Instructions:
+
+Change the text in the p tag from 'Hello World' to the content of the myString variable using DOM manipulation.
+
+The html:
+
+`<p class="text">Hello World</p>`
+
+The expected output:
+
+`Whatever you put in the myString variable`

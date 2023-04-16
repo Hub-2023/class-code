@@ -1,0 +1,34 @@
+h1 {
+    color: red;
+    font-size: 5rem;
+}
+
+h2 {
+    color: green;
+    font-size: 3.5rem;
+}
+
+header {
+    text-align: center;
+}
+
+#about {
+    height: 100vh;
+    width: 100%;
+    background-color: aqua;
+}
+
+.aboutTitle {
+    justify-content: center;
+}
+
+.aboutTitle h2 {
+    padding-top: 2rem;
+    font-size: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: pink;
+    cursor: pointer;
+}
