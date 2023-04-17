@@ -134,3 +134,27 @@ The last line of your code must look like this:
 
 HTML:
 `<h1 class="title">Take2</h1>`
+
+--------------------------
+
+## Instructions:
+
+### Part 1:
+
+Change the HTML in the div below to say "Button clicked" using DOM manipulation.
+
+```
+<div class="myMessage">Button not clicked yet</div>
+<button class="myButton">Click me</button>
+```
+
+1. Access button element with querySelector
+2. Add event listener to button
+3. button listens for 'click' event
+4. then runs a function which changes the textContent of the div to "Button clicked"
+        - use querySelector to access the div
+        - change the textContent of the div to "Button clicked"
+
+
+### Part 2:
+

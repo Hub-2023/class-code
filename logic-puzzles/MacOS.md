@@ -125,3 +125,12 @@ The html:
 The expected output:
 
 `Whatever you put in the myString variable`
+
+
+--------------------------
+
+## Instructions:
+
+In your html you have an inisible div with the class of 'invisible'.
+
+Write a function that accesses the div by its class and adds a class of 'visible' to it.
