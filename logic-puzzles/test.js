@@ -19,7 +19,7 @@
 // console.log(getShoeBrand(250))
 
 
-let fruit = ["Apples", "Bananas", "Oranges", "Mangoes"]
+// let fruit = ["Apples", "Bananas", "Oranges", "Mangoes"]
 
 // function selectFavouriteFruit (fruit, index) {
 //     let favouriteFruit = fruit[index]
@@ -35,11 +35,43 @@ let fruit = ["Apples", "Bananas", "Oranges", "Mangoes"]
 
 // addFruit(fruit, "Strawberries")
 
-let numbers = [1, 2, 3, 4, 5]
+// let numbers = [1, 2, 3, 4, 5]
 
-function addNumbers (numbers, newNumber) {
-    numbers.push(newNumber)
-    console.log(numbers)
+// function addNumbers (numbers, newNumber) {
+//     numbers.push(newNumber)
+//     console.log(numbers)
+// }
+
+// addNumbers(numbers, 6)
+
+
+// --------------------
+
+let results = document.querySelector('.results')
+let results2 = document.querySelector('.results2')
+let results3 = document.querySelector('.results3')
+
+function addCar (cars, newCar) {
+    cars.push(newCar)
+    console.log(cars)
+    results.textContent = cars
 }
 
-addNumbers(numbers, 6)
+function getCar (list, item) {
+    console.log(list[item])
+    results2.textContent = list[item]
+}
+
+function countCars (cars) {
+    console.log(cars.length)
+    results3.textContent = cars.length
+}
+
+
+let cars = ['tesla', 'jaguar', 'BMW', 'holden']
+
+addCar(cars, 'porche')
+getCar(cars, 2)
+countCars(cars)
+
+// write the function declarations

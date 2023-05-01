@@ -48,11 +48,13 @@ Write a function that takes a string as input and returns the string in all caps
 
 Write an object called Person that has a name and age as keys. The value of the name key should be a string `Bob` and the value of the age key should be a number `35`.
 
+Print the age of the person to the console
+
 ---------------------------------------------
 
 ## Challenge 5
 
-Change the content of this HTML to be `Enjoy your easter long weekend!` using DOM Manipulation.
+Change the content of this HTML to be `Enjoy your tuesday!` using DOM Manipulation.
 
 #### HTML:
 `
@@ -61,7 +63,7 @@ Change the content of this HTML to be `Enjoy your easter long weekend!` using DO
 
 #### Expected Output:
 
-`Enjoy your easter long weekend!`
+`Enjoy your tuesday!`
 
 ------------------------------------------
 
