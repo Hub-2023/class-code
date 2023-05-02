@@ -131,6 +131,6 @@ The expected output:
 
 ## Instructions:
 
-In your html you have an inisible div with the class of 'invisible'.
+In your html you have an invisible div with the class of 'invisible'.
 
 Write a function that accesses the div by its class and adds a class of 'visible' to it.

@@ -1,0 +1,9 @@
+body {
+    font-family: monospace;
+    font-weight: 300;
+}
+
+#output {
+    padding: 10px;
+    margin: 10px;
+}

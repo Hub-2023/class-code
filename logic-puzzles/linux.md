@@ -80,3 +80,19 @@ Write the JavaScript code to make the button count up from 0.
 1. make a variable called count = 0
 2. get the button by it's id and when the button is clicked, add 1 to the count variable.
 3. console.log the count variable
+
+-----------------------------------------
+
+## Looping Challenge
+
+`let numbers = [1, 2, 3, 4, 5]`
+
+Write a 'for loop' that loops over the numbers array and adds 10 to each number in the array.
+Remember the loop example we did yesterday and don't overthink it!
+
+for (let i = 0; i < numbers.length; i++){
+    numbers[i] = numbers[i] + 10
+}
+
+console.log(numbers)
+
