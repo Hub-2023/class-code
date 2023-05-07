@@ -1,0 +1,45 @@
+body {
+    font-family: monospace;
+    font-weight: 300;
+}
+
+.box {
+    padding: 10px;
+    margin: 10px;
+}
+
+.custom-file-input {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+  }
+  
+  .custom-file-input input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    font-size: 100px;
+  }
+  
+  .custom-file-input button {
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  .color {
+    background-color: #7dbc55;
+  }
+
+  .custom-file-input:hover button {
+    background-color: #cef4b6;
+    cursor: pointer;
+
+  }
+  

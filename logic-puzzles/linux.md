@@ -83,7 +83,7 @@ Write the JavaScript code to make the button count up from 0.
 
 -----------------------------------------
 
-## Looping Challenge
+## Challenge 7
 
 `let numbers = [1, 2, 3, 4, 5]`
 
@@ -95,4 +95,20 @@ for (let i = 0; i < numbers.length; i++){
 }
 
 console.log(numbers)
+
+
+--------------------------
+
+## Instructions:
+
+`let numbers = [11, 12, 13, 14, 15]`
+
+Write a 'for loop' that loops over the array and returns a list of elements below 10.
+
+--------------------------------
+
+## Instructions:
+
+Write a function that checks if a number is over 9000. 
+It should console log 'its over 9000' if it is, and 'its lower than 9000' if its not.
 

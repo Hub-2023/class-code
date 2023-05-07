@@ -134,3 +134,25 @@ The expected output:
 In your html you have an invisible div with the class of 'invisible'.
 
 Write a function that accesses the div by its class and adds a class of 'visible' to it.
+
+--------------------------
+
+## Instructions:
+
+`let list = [19, 29, 39, 49, 59]`
+
+Write a 'for loop' that loops over the array and takes each item to the nearest number divisible by ten.
+
+-----------------------------
+
+## Instructions:
+
+```
+let Person = { 
+    name: 'Bob',
+    age: 35,
+    job: 'musician' 
+    }
+```
+
+print the 3rd property in the object to the console.
