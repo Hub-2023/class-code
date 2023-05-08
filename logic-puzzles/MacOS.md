@@ -156,3 +156,17 @@ let Person = {
 ```
 
 print the 3rd property in the object to the console.
+
+--------------------------------
+
+## Instructions:
+
+Here is some HTML:
+`
+<div id="list">...</div>
+<button id="button">Click to add child</button>
+`
+
+When the button is clicked I want the a new p element to be added as a child of the div... 
+HINT: event listener on the button
+HINT: the appendChild() method takes the p element

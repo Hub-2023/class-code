@@ -112,3 +112,15 @@ Write a 'for loop' that loops over the array and returns a list of elements belo
 Write a function that checks if a number is over 9000. 
 It should console log 'its over 9000' if it is, and 'its lower than 9000' if its not.
 
+--------------------------------
+
+## Instructions:
+
+Here is some HTML:
+`
+<div id="list">...</div>
+<button id="button">Click to say hey!</button>
+`
+When the button is clicked I want the text content of the Div to change to Hey!
+Use DOM manipulation to add an event listener to the button so that when it is clicked the textContent changes...
+
