@@ -156,5 +156,20 @@ Change the HTML in the div below to say "Button clicked" using DOM manipulation.
         - change the textContent of the div to "Button clicked"
 
 
-### Part 2:
+-----------------------------
+
+
+### JavaScript:
+
+const Person = {
+    name: 'Kieran',
+    age: 29,
+    job: 'coding teacher',
+    hobbies: 'DJ'
+}
+
+### HTML:
+
+<div id='greeting'>Hello...</div>
+<button id='button'>Click here!</button>
 

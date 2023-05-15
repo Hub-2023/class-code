@@ -59,3 +59,11 @@ function addCar (cars, newCar) {
 
 addCar(cars, "Tesla")
 
+// ------------------------
+
+const Person = {
+    name: 'Kieran',
+    age: 29,
+    job: 'coding teacher',
+    hobbies: 'DJ'
+}
