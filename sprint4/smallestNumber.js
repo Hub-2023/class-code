@@ -1,4 +1,4 @@
-let arr = [2, 3, 4, 6, 1, 12, 11]
+let arr = [2, 3, 4, 6, 1, 12, 28]
 
 function smallestNumber (arr) {
     // initialise smallest number as the first one in the array
@@ -10,11 +10,11 @@ function smallestNumber (arr) {
     for (let i = 0; i < arr.length; i++) {
         if (arr[i] < smallest) {
             smallest = arr[i]
-        } 
+            console.log('smallest has been updated to: ', smallest)
+        } else {
+            console.log('smallest number stays the same at: ', smallest)
+        }
     }
-    console.log('smallest number: ', smallest)
 }
 
 smallestNumber(arr)
-
-console.log('largest using Math.max: ', Math.max(...arr))
